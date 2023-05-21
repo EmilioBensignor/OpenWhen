@@ -370,4 +370,9 @@ h1 {
 
 .extra-titulo{
     font-size: 4vw;
+    margin-bottom: 3vw;
+}
+
+.extra-video video{
+    width: 60vw;
 }
