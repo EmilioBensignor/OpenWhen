@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../multimedia/icon.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Raleway:wght@200&display=swap"
+        rel="stylesheet">
+    <title>Open When...</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header-home">
+        <div class="imagen-header">
+            <a href="./home.html">
+                <img src="../multimedia/flecha.png" alt="flecha">
+            </a>
+        </div>
+        <div class="texto-header">
+            <p>Only for Chiqui 🥰</p>
+        </div>
+    </header>
+    <main>
+        <div class="div-h1-dias">
+            <h1>Bienvenida al día 22</h1>
+        </div>
+        <div class="div-botones-dias">
+            <button class="btn-foto" onclick="mostrarContenido('foto')">Foto</button>
+            <button class="btn-cancion" onclick="mostrarContenido('cancion')">Canción</button>
+            <button class="btn-peu" onclick="mostrarContenido('peula')">Peula</button>
+            <button class="btn-todo" onclick="mostrarContenido('todo')">To Do</button>
+            <button class="btn-extra" onclick="mostrarContenido('extra')">Extra</button>
+        </div>
+    
+        <div id="foto" class="contenido">
+            <div class="foto-explicacion">Aquí aparecerá un mix de fotos de un momento para recordar</div>
+            <div class="foto-imagen">
+                <img src="../multimedia/foto_22.png" alt="foto22">
+            </div>
+            <div class="foto-caption">
+                <p>22/01 - Villa Borghese - Propuesta de matrimonio</p>
+            </div>
+        </div>
+        <div id="cancion" class="contenido">
+            <div class="cancion-titulo">
+                <p>Playlist diaria 👇</p>
+            </div>
+            <div class="cancion-playlist">
+                <a href="https://open.spotify.com/playlist/1ZFzc0nLUfQYXHajrXPLdi?si=cewaG6z8Sdm3PXIP-xhHVQ" target="_blank">
+                    <img src="../multimedia/Playlist22.png" alt="playlist">
+                </a>
+            </div>
+            <div class="cancion-descripcion">
+                <p>Aquí aparecerá una playlist diaria que durará 3 días hasta desaparecer. Vas a poder notar que son 3 Playlists que se van renovando cada tres días. Just enjoy! 😁</p>
+            </div>
+        </div>
+        <div id="peula" class="contenido">
+            <div class="peula-titulo">
+                <p>Desafíos de hoy</p>
+            </div>
+            <div class="peula-desafios">
+                <ul>
+                    <li>Sacarte 3 fotos con distintas poses</li>
+                    <li>Buscar un mensaje viejo de nuestra conversación</li>
+                    <li>Pedir la canción tarareada y adivinarla</li>
+                    <li>Decir 1 letra inicial de nombre que no va para un hijo</li>
+                </ul>
+            </div>
+            <div class="peula-aclaracion">
+                <p>Todo debe ser justificado para confirmar el éxito del desafío</p>
+            </div>
+        </div>
+        <div id="todo" class="contenido">
+            <div class="todo-titulo">
+                <p>Acá tenes un To Do diario para no olvidarte de nada</p>
+            </div>
+            <div class="todos-lista">
+                <div class="lista-izquierda">
+                    <div>
+                        <input type="checkbox" id="Gotita-matutina" name="todo" value="Gotita-matutina">
+                        <label for="Gotita-matutina">Gotita matutina</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Hierro" name="todo" value="Hierro">
+                        <label for="Hierro">Hierro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Locket" name="todo" value="Locket">
+                        <label for="Locket">Actualizar tu Locket</label>
+                    </div>
+                </div>
+                <div class="lista-derecha">
+                    <div>
+                        <input type="checkbox" id="Pastillas" name="todo" value="Pastillas">
+                        <label for="Pastillas">Pastillasss</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Gotita-nocturna" name="todo" value="Gotita-nocturna">
+                        <label for="Gotita-nocturna">Gotita nocturna</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pasaporte" name="todo" value="pasaporte">
+                        <label for="pasaporte">Pasaporte Alemán</label>
+                    </div>
+                </div>
+            </div>
+            <div class="todo-aclaracion">
+                <p>Siempre podes pedir una actualización escribiendole a este guapo caballero 👇</p>
+                <div>
+                    <a href="https://wa.me/5491166411355"><img class="wpp" src="../multimedia/wpp.png" alt="wpp"></a>
+                </div>
+            </div>
+        </div>
+        <div id="extra" class="contenido">
+            <div class="extra-titulo">
+                <p>Hoy en la sección Extra, el hit del Otoño 🤪</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* ESTILOS GENERALES */
+
+:root {
+    --font-titulos: 'Poppins', sans-serif;
+    --font-normal: 'Quicksand', sans-serif;
+    --font-thin: 'Raleway', sans-serif;
+    --celeste-fondo: #EAF6FF;
+    --azul-claro: #3886C6;
+    --azul-apagado: #1A68A3;
+    --celeste-lindo: #C1F6FF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--celeste-fondo);
+}
+
+/* HEADER */
+header{
+    background-image: linear-gradient(to right, #8c8fff, #8892fc, #8496f8, #8198f4, #809bef, #80a1ef, #80a6ef, #82abef, #86b5f4, #8bbef8, #91c8fc, #99d1ff);
+    padding: 3% 1%;
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+
+/* PANTALLA DE INICIO */
+
+#inicio {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.bienvenida{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+}
+
+.bienvenida p{
+    font-size: 3vw;
+    color: #020061;
+}
+
+h1 {
+    font-family: var(--font-titulos);
+    font-size: 4vw;
+}
+
+.input-inicio {
+    width: 60%;
+    padding: 1.5vw;
+    margin-top: 1vw;
+    border: 1px solid;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    font-family: var(--font-normal);
+    font-size: 2.5vw;
+}
+
+.input-inicio:focus-within {
+    border: 1px solid var(--azul-claro);
+    outline: none;
+}
+
+.button-inicio {
+    padding: 1.5vw 2vw;
+    background-color: var(--azul-claro);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-left: 1vw;
+    font-size: 2.5vw;
+    font-family: var(--font-normal);
+}
+
+.button-inicio:hover {
+    background-color: var(--azul-apagado);
+}
+
+.inicio-explicacion {
+    font-family: var(--font-thin);
+    font-size: 2.2vw;
+    margin-top: 1.5vw;
+}
+
+/* HOME */
+
+.main-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1.8vw;
+    padding: 2vw;
+}
+
+.grid-container button {
+    width: 12vw;
+    height: 12vw;
+    background-color: var(--celeste-lindo);
+    border: 2.5px solid #E3B4FF;
+    border-radius: 50%;
+    font-size: 3vw;
+    font-family: var(--font-normal);
+}
+
+.header-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
+.header-home .imagen-header{
+    justify-content: flex-start;
+    margin-right: 20%;
+}
+
+.header-home .imagen-header img{
+    width: 10vw;
+}
+
+.header-home .texto-header{
+    font-size: 5vw;
+}
+
+.div-title-home, .div-p-home{
+    display: flex;
+    justify-content: center;
+}
+
+.div-title-home{
+    font-family: var(--font-titulos);
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+}
+
+.div-p-home{
+    font-family: var(--font-normal);
+    font-size: 2.5vw;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* DÍAS */
+
+.div-h1-dias{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    font-family: var(--font-titulos);
+}
+
+.div-h1-dias h1{
+    font-size: 5vw;
+}
+
+.div-botones-dias{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+}
+
+.div-botones-dias button{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 3vw;
+}
+
+.btn-foto{
+    background-image: linear-gradient(to right bottom, #ff7ccd, #ff85c7, #ff8fc2, #ff98bf, #ffa2bd, #ffa7b9, #ffadb6, #ffb3b4, #ffb6ae, #ffbaa9, #ffbea4, #ffc3a0);
+}
+
+.btn-cancion{
+    background-image: linear-gradient(to right bottom, #d2fc06, #c4fa41, #b9f85e, #b1f575, #abf189, #a2ef87, #99ee86, #90ec85, #7cec6f, #65ec57, #47ec3a, #04eb00);
+}
+
+.btn-peu{
+    background-image: linear-gradient(to left top, #d24fff, #dd52f9, #e756f2, #f05bed, #f760e7, #fb5cd9, #fe58cb, #ff56be, #ff4ba5, #ff448c, #ff4172, #ff445a);
+}
+
+.btn-todo{
+    background-image: linear-gradient(to right bottom, #75e0e1, #6de1d7, #6ae2ca, #6ee3ba, #78e2a9, #88e19f, #97e095, #a6df8c, #b8de8b, #c7dd8d, #d4dc91, #e0db96);
+}
+
+.btn-extra{
+    background-image: linear-gradient(to right bottom, #5a5be0, #715fe0, #8463e0, #9468e0, #a36de0, #af70e0, #bb74df, #c678df, #d27cde, #dc80dd, #e784dc, #f089db);
+}
+
+.contenido{
+    display: none;
+}
+
+/* FOTO */
+
+#foto{
+    margin: 10vw 5vw;
+    padding-bottom: 5%;
+}
+
+#foto .foto-explicacion{
+    text-align: center;
+    font-size: 3.5vw;
+    margin-bottom: 5vw;
+}
+
+#foto .foto-imagen{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+
+#foto .foto-imagen img{
+    width: 90vw;
+}
+
+#foto .foto-caption{
+    text-align: center;
+}
+
+/* CANCIÓN */
+
+#cancion{
+    text-align: center;
+    margin: 10vw 5vw;
+}
+
+.cancion-titulo{
+    margin-bottom: 3vw;
+}
+
+.cancion-titulo p{
+    font-size: 4vw;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cancion-playlist{
+    margin-bottom: 1.5vw;
+}
+
+.cancion-playlist a img{
+    width: 60vw;
+}
+
+.cancion-descripcion{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cancion-descripcion p{
+    font-size: 3vw;
+}
+
+/* PEULA */
+
+#peula{
+    text-align: center;
+    margin: 10vw 5vw;
+}
+
+.peula-titulo{
+    font-size: 4.5vw;
+    margin-bottom: 2vw;
+}
+
+.peula-desafios{
+    width: 80%;
+    text-align: start;
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    padding: 2% 2% 2% 7%;
+    background-color: #8c8fff;
+    border-radius: 20px;
+    font-size: 3vw;
+}
+
+.peula-desafios ul li{
+    margin-bottom: 1vw;
+}
+
+.peula-aclaracion{
+    font-size: 2.8vw;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* TO DO */
+
+#todo{
+    text-align: center;
+    margin: 10vw 5vw;
+}
+
+.todo-titulo{
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+}
+
+.todos-lista{
+    text-align: start;
+    background-color: #75e0e1;
+    padding: 5%;
+    border-radius: 10px;
+    margin-bottom: 3vw;
+}
+
+.todos-lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-izquierda div, .lista-derecha div{
+    display: flex;
+    margin-bottom: 1.5vw;
+}
+
+.todos-lista input{
+    width: 4vw;
+    height: 4vw;
+}
+
+.todos-lista label{
+    font-size: 3.7vw;
+    margin-left: 3vw;
+}
+
+.todo-aclaracion{
+    font-size: 3vw;
+    font-style: italic;
+}
+
+.todo-aclaracion p{
+    margin-bottom: 2vw;
+}
+
+.todo-aclaracion img{
+    width: 10vw;
+    background-color: #65ec57;
+    border-radius: 100%;
+}
+
+/* EXTRA */
+
+#extra{
+    text-align: center;
+    margin: 10vw 5vw;
+}
+
+.extra-titulo{
+    font-size: 4vw;
+}
