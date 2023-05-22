@@ -286,7 +286,7 @@ h1 {
 
 .peula-titulo{
     font-size: 4.5vw;
-    margin-bottom: 2vw;
+    margin-bottom: 3vw;
 }
 
 .peula-desafios{
@@ -294,7 +294,7 @@ h1 {
     text-align: start;
     margin: 0 auto;
     margin-bottom: 3vw;
-    padding: 3% 3% 3% 8%;
+    padding: 4% 3% 3% 8%;
     background-color: #8c8fff;
     border-radius: 20px;
     font-size: 3vw;
@@ -304,10 +304,30 @@ h1 {
     margin-bottom: 1vw;
 }
 
+.recompensa{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.recompensa span{
+    font-weight: bold;
+}
+
 .peula-aclaracion{
-    font-size: 3vw;
+    font-size: 3.2vw;
     font-style: italic;
     font-weight: 500;
+}
+
+.puntaje{
+    margin-top: 4vw;
+    color: #020061;
+    font-size: 4vw;
+}
+
+.puntaje span{
+    font-weight: bold;
 }
 
 /* TO DO */
