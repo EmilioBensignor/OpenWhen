@@ -3,7 +3,7 @@
 function verificarRespuesta() {
     var respuesta = document.getElementById("respuesta").value;
 
-    if (respuesta.toLowerCase() === "borghese") {
+    if (respuesta.toLowerCase() === "abracadabra") {
         // Redirigir al usuario a la siguiente sección
         window.location.href = "pages/home.html";
     } else {
