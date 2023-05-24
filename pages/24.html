@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../multimedia/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Raleway:wght@200&display=swap"
+        rel="stylesheet">
+    <title>Open When...</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header-home">
+        <div class="imagen-header">
+            <a href="./home.html">
+                <img src="../multimedia/flecha.png" alt="flecha">
+            </a>
+        </div>
+        <div class="texto-header">
+            <p>Only for Chiqui 🥰</p>
+        </div>
+    </header>
+    <main>
+        <div class="div-h1-dias">
+            <h1>Bienvenida al día 24</h1>
+        </div>
+        <div class="div-botones-dias">
+            <button class="btn-foto" onclick="mostrarContenido('foto')">Foto</button>
+            <button class="btn-cancion" onclick="mostrarContenido('cancion')">Canción</button>
+            <button class="btn-peu" onclick="mostrarContenido('peula')">Peula</button>
+            <button class="btn-todo" onclick="mostrarContenido('todo')">To Do</button>
+            <button class="btn-extra" onclick="mostrarContenido('extra')">Extra</button>
+        </div>
+    
+        <div id="foto" class="contenido">
+            <div class="foto-explicacion">Mix de fotos de todas las veces que me acompañaste en aventuras turísticas</div>
+            <div class="foto-imagen">
+                <img src="../multimedia/Foto_24.png" alt="foto24">
+            </div>
+            <div class="foto-caption">
+                <p>Carlos Keen - Costa - Roma 🥰</p>
+            </div>
+        </div>
+        <div id="cancion" class="contenido">
+            <div class="cancion-titulo">
+                <p>Playlist diaria 👇</p>
+            </div>
+            <div class="cancion-playlist">
+                <a href="https://open.spotify.com/playlist/211PTBRRcagWSlLmtqxm2v?si=abc1165f1ae54bd2" target="_blank">
+                    <img src="../multimedia/Playlist24.png" alt="playlist">
+                </a>
+            </div>
+            <div class="cancion-descripcion">
+                <p>Playlist diaria para que cantes sin parar como si estuvieses en una aventura. Just enjoy! 😁</p>
+            </div>
+        </div>
+        <div id="peula" class="contenido">
+            <div class="peula-titulo">
+                <p>Desafíos de hoy</p>
+            </div>
+            <div class="peula-desafios">
+                <ul>
+                    <li>Grabar a una persona graciosa en el aeropuerto</li>
+                    <li>Mandarme una foto de nosotros donde se vean tus hoyuelitos</li>
+                    <li>Sacarle foto a 3 cosas riquísimas</li>
+                    <li>Un nombre de hijo posible "extraño"</li>
+                </ul>
+                <div class="recompensa">
+                    <p>Recompensa por todo: <span>4 besosss</span></p>
+                </div>
+            </div>
+            <div class="peula-aclaracion">
+                <p>Todo debe ser justificado para confirmar el éxito del desafío</p>
+            </div>
+            <div class="puntaje">
+                <p>Contador de Besos: <span>8</span></p>
+            </div>
+            <div class="hijito">
+                <p>Qué letras no van para nuestro hijo: <span>R y W</span></p>
+            </div>
+        </div>
+        <div id="todo" class="contenido">
+            <div class="todo-titulo">
+                <p>Acá tenes un To Do diario para no olvidarte de nada</p>
+            </div>
+            <div class="todos-lista">
+                <div class="lista-izquierda">
+                    <div>
+                        <input type="checkbox" id="Gotitas" name="todo" value="Gotitas">
+                        <label for="Gotitas">Gotitas x2</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Hierro" name="todo" value="Hierro">
+                        <label for="Hierro">Hierro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Locket" name="todo" value="Locket">
+                        <label for="Locket">Actualizar tu Locket</label>
+                    </div>
+                </div>
+                <div class="lista-derecha">
+                    <div>
+                        <input type="checkbox" id="ducha" name="todo" value="ducha">
+                        <label for="ducha">Ducharte (15)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Abdominales" name="todo" value="Abdominales">
+                        <label for="Abdominales">Abdominales x30</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Pastillas" name="todo" value="Pastillas">
+                        <label for="Pastillas">Pastillas</label>
+                    </div>
+                </div>
+            </div>
+            <div class="todo-aclaracion">
+                <p>Siempre podes pedir una actualización escribiendole a este guapo caballero 👇</p>
+                <div>
+                    <a href="https://wa.me/5491166411355"><img class="wpp" src="../multimedia/wpp.png" alt="wpp"></a>
+                </div>
+            </div>
+        </div>
+        <div id="extra" class="contenido">
+            <div class="extra-titulo">
+                <p>Hoy en la sección Extra, me limpio la cara con vos 🤪</p>
+            </div>
+            <div class="extra-video">
+                <video controls>
+                    <source src="../multimedia/Gel.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

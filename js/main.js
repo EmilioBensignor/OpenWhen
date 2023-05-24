@@ -3,14 +3,14 @@
 function verificarRespuesta() {
     var respuesta = document.getElementById("respuesta").value;
 
-    if (respuesta.toLowerCase() === "abracadabra") {
+    if (respuesta.toLowerCase() === "alfombra") {
         // Redirigir al usuario a la siguiente sección
         window.location.href = "pages/home.html";
     } else {
         Swal.fire({
             icon: 'error',
-            title: '¿No la sabes?',
-            text: 'A seguir intentando...',
+            title: 'Pista',
+            text: 'Esta en el piso de mi casa',
         });
     }
 }
