@@ -3,14 +3,14 @@
 function verificarRespuesta() {
     var respuesta = document.getElementById("respuesta").value;
 
-    if (respuesta.toLowerCase() === "alfombra") {
+    if (respuesta.toLowerCase() === "giolitti") { // La respuesta en minúscula
         // Redirigir al usuario a la siguiente sección
         window.location.href = "pages/home.html";
     } else {
         Swal.fire({
             icon: 'error',
             title: 'Pista',
-            text: 'Esta en el piso de mi casa',
+            text: 'Quizás podes recurrir a otra página web para encontrarlo...',
         });
     }
 }

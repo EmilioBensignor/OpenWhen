@@ -330,6 +330,15 @@ h1 {
     font-weight: bold;
 }
 
+.hijito{
+    margin-top: 1vw;
+    font-size: 3.7vw;
+}
+
+.hijito span{
+    font-weight: bold;
+}
+
 /* TO DO */
 
 #todo{
