@@ -304,6 +304,10 @@ h1 {
     margin-bottom: 1vw;
 }
 
+.peula-desafios ul li span{
+    font-style: italic;
+}
+
 .recompensa{
     margin-top: 5vw;
     text-align: center;
