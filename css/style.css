@@ -53,6 +53,11 @@ header{
     color: #020061;
 }
 
+.div-h1{
+    width: 90%;
+    margin: 0 auto;
+}
+
 h1 {
     font-family: var(--font-titulos);
     font-size: 4vw;
