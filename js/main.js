@@ -3,14 +3,14 @@
 function verificarRespuesta() {
     var respuesta = document.getElementById("respuesta").value;
 
-    if (respuesta.toLowerCase() === "22") { // La respuesta en minúscula
+    if (respuesta.toLowerCase() === "comer") { // La respuesta en minúscula
         // Redirigir al usuario a la siguiente sección
         window.location.href = "pages/home.html";
     } else {
         Swal.fire({
             icon: 'error',
             title: 'Pista',
-            text: 'Es un número y cumplimos ese día...',
+            text: 'Verbo regular terminado en er/ir',
         });
     }
 }
