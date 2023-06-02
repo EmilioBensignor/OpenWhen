@@ -3,14 +3,14 @@
 function verificarRespuesta() {
     var respuesta = document.getElementById("respuesta").value;
 
-    if (respuesta.toLowerCase() === "juro") { // La respuesta en minúscula
+    if (respuesta.toLowerCase() === "Lucifer") { // La respuesta en minúscula
         // Redirigir al usuario a la siguiente sección
         window.location.href = "pages/home.html";
     } else {
         Swal.fire({
             icon: 'error',
             title: 'Pista',
-            text: 'No iba a tocarla ni en pedo',
+            text: 'Hoy estoy bueno, Luci....',
         });
     }
 }
