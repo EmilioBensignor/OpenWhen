@@ -3,14 +3,14 @@
 function verificarRespuesta() {
     var respuesta = document.getElementById("respuesta").value;
 
-    if (respuesta.toLowerCase() === "anakin") { // La respuesta en minúscula
+    if (respuesta.toLowerCase() === "azul") { // La respuesta en minúscula
         // Redirigir al usuario a la siguiente sección
         window.location.href = "pages/home.html";
     } else {
         Swal.fire({
             icon: 'error',
             title: 'Pista',
-            text: 'Amigo de Obi Wan',
+            text: 'Daa esta la sabes',
         });
     }
 }
