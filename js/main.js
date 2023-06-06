@@ -3,14 +3,14 @@
 function verificarRespuesta() {
     var respuesta = document.getElementById("respuesta").value;
 
-    if (respuesta.toLowerCase() === "26") { // La respuesta en minúscula
+    if (respuesta.toLowerCase() === "v") { // La respuesta en minúscula
         // Redirigir al usuario a la siguiente sección
         window.location.href = "pages/home.html";
     } else {
         Swal.fire({
             icon: 'error',
             title: 'Pista',
-            text: 'Hablamos del maniqui de tu peula...',
+            text: 'Como la remera negra...',
         });
     }
 }
